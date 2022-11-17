@@ -1,0 +1,180 @@
+.nav_item{
+    color: #000000e1 !important;
+    font-weight: 600;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid #444; */
+}
+
+/* pitch styles */
+.pitch_title{
+    color: #000000e1 !important;
+    font-weight: 400;
+}
+.p_para{
+    color: #000000;
+    font-weight:500;
+    margin-top: 1rem;
+}
+.dates_container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.dates_container .date{
+    margin-bottom: 1rem;
+}
+.dates_container .date_apply:hover{
+ /* background-image: linear-gradient(45deg, red, gray); */
+ cursor: pointer;
+}
+.pitch_scnd{
+    color: #000000e1 !important;
+    font-weight: 600;
+}
+
+
+/* price styles */
+.col_left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* border: 1px solid #000000; */
+}
+.p_title,.p_scndTitle{
+    font-size: 1.4rem;
+    color: #888;
+    font-weight: 500;
+    /* margin-bottom: 2rem; */
+}
+.p_scndTitle{
+    margin-bottom: 3rem;
+    /* margin-top: 1rem; */
+}
+.price{
+    font-size: 3.87rem;
+    color: #000000;
+}
+.coin_img{
+    width: 10rem;
+}
+.leftLine{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.leftLine .line{
+    position: absolute;
+    top: -276px;
+    left: 556px;
+    /* background-color: red; */
+    /* background-image: linear-gradient( to right, #969696, #353535 50%, #969696 ); */
+    background-image: radial-gradient(#1b1b1bc7 50%, #808080c5 70%, #808080cb);
+    border-radius:50px;
+    width: 3px;
+    height: 290px;
+}
+
+/* price col right styles */
+.col_right_title{
+    font-size: 3.57rem;
+    color: #000;
+}
+.col_right_half{
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    color: #888;
+}
+
+/* mentor sytles //////////////////////////////////*/
+.mentor_title{
+    color: #888;
+}
+
+.m_profile{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 50px;
+    /* border: 1px solid #333; */
+    margin-bottom: 1.4rem;
+    transition: all 0.5s ease-in-out;
+}
+.m_profile:hover{
+    transform: scale(1.1)
+}
+.m_profile .profile{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 250px;
+    border-radius: 10px;
+    /* border: 1px solid #333; */
+    box-shadow: 7px 8px 7px 0px rgba(240,240,240,0.75);
+    -webkit-box-shadow: 7px 8px 7px 0px rgba(240,240,240,0.75);
+    -moz-box-shadow: 7px 8px 7px 0px rgba(240,240,240,0.75);
+}
+.m_profile .m_title{
+    color: #000000c7;
+    text-align: center;   
+}
+
+/* faq */
+.questions{
+    color: #000000e5;
+    font-weight: 500;
+    width: 70%;
+    /* border: 1px solid red; */
+}
+
+/* responsive styles */
+@media only screen and (max-width: 468px){
+    *{
+        padding: .22rem;
+    }
+    .header{
+        width: 100%;
+        height: 100%;
+        padding: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+ .header_img{
+    width: 100%;
+ }
+ .navbar-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }  
+ .bar{
+    font-size: 1.55rem;
+ }
+ .questions{
+    color: #000000e5;
+    font-weight: 500;
+    width: 100%;
+}
+.footer, .faq_apply{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
